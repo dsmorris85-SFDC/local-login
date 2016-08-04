@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body>
+<div class="container">
+<p>
+			<% if(user) { %>
+				<% include ../partials/header %>
+			<% } %>
+		Username: <%= user.userEmail %><br/>
+		Name: <%= user.userFirstName %> <%= user.userLastName %><br/>
+		</p>
+
+    <p/>
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+    
+</body>
+</html>

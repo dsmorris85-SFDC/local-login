@@ -1,0 +1,15 @@
+/*
+
+ERROR CODES
+
+
+
+- ER-USR500 - User not found in DB
+- ER-USR550 - Invalid credentials
+- ER-DB500 - DB not found
+
+
+
+ACCEPTANCE CODES
+
+- OK-USR100 - User found
